@@ -5,6 +5,15 @@
 ## Mission
 Muốn chuyển sang làm AI Engineer, có thể làm ra những sản phẩm AI. Hiện tại đang là web developer làm được BE, FE, quen dùng NodeJS, biết cả WordPress, JS, HTML, CSS. Hiện đang dùng Claude Code để sinh code. Mục tiêu xây cuối khóa: chưa chắc (muốn tự làm một app bằng Rust để chơi).
 
+## Focus
+Chỉnh ngày 2026-11-07. Bạn là web dev (React, PHP, Node, JS), đã quen Claude Code và MCP, nên lộ trình nghiêng về AI application engineering.
+- Trọng tâm: LLM Engineering, RAG, Agent, Evals, Production, bảo mật LLM.
+- Toán và phần "from scratch" chỉ học vừa đủ để hiểu LLM hoạt động thế nào (token, embedding, attention, temperature).
+- Học Python song song, vì code trong repo ở Phase 11, 13 và 14 đều là Python.
+- Khi học thì tự gõ code, dùng Claude như gia sư. Khi làm sản phẩm thì dùng Claude Code bình thường.
+- Side project chạy song song bằng stack quen (Node/React): semantic search hoặc chatbot RAG trên nội dung một site WordPress. App Rust để cuối lộ trình.
+- `/learn` chỉ chọn bài nằm trong cột `Lessons` (`all` = học đủ). Phase có Status `Later` thì khi nào cần mới học.
+
 ## Placement
 - Date: 2026-11-04
 - Score: 4/10 (Math & Statistics 1/2, Classical ML 1/2, Deep Learning 0/2, NLP & Transformers 0/2, Applied AI 2/2)
@@ -12,30 +21,30 @@ Muốn chuyển sang làm AI Engineer, có thể làm ra những sản phẩm AI
 - Pace: ~8 h/week (1 h ngày thường, nhiều hơn vào cuối tuần)
 
 ## Path
-| Phase | Name | Status | Est. hours |
-|-------|------|--------|------------|
-| 0 | Setup & Tooling | Skip | -- |
-| 1 | Math Foundations | Review | 23 |
-| 2 | ML Fundamentals | Review | 26 |
-| 3 | Deep Learning Core | Do | 15 |
-| 4 | Computer Vision | Do | 27 |
-| 5 | NLP: Foundations to Advanced | Do | 30 |
-| 6 | Speech & Audio | Do | 18 |
-| 7 | Transformers Deep Dive | Do | 14 |
-| 8 | Generative AI | Do | 14 |
-| 9 | Reinforcement Learning | Do | 13 |
-| 10 | LLMs from Scratch | Do | 26 |
-| 11 | LLM Engineering | Do | 19 |
-| 12 | Multimodal AI | Do | 65 |
-| 13 | Tools & Protocols | Do | 76 |
-| 14 | Agent Engineering | Do | 55 |
-| 15 | Autonomous Systems | Do | 20 |
-| 16 | Multi-Agent & Swarms | Do | 28 |
-| 17 | Infrastructure & Production | Do | 34 |
-| 18 | Ethics, Safety & Alignment | Do | 31 |
-| 19 | Capstone Projects | Do | 620 |
+| Phase | Name | Status | Lessons | Est. hours |
+|-------|------|--------|---------|------------|
+| 0 | Setup & Tooling | Skip | -- | -- |
+| 1 | Math Foundations | Review | 01, 02, 04, 05, 06, 08, 09, 12, 13, 14 | ~10 |
+| 2 | ML Fundamentals | Review | 01, 02, 03, 06, 09, 10, 19 | ~9 |
+| 3 | Deep Learning Core | Do | all | 15 |
+| 4 | Computer Vision | Later | -- | -- |
+| 5 | NLP: Foundations to Advanced | Do | 01, 03, 10, 14, 19, 20, 22, 23, 27 | ~10 |
+| 6 | Speech & Audio | Later (học 1/20 Fourier trước khi vào) | -- | -- |
+| 7 | Transformers Deep Dive | Do | all | 14 |
+| 8 | Generative AI | Later | -- | -- |
+| 9 | Reinforcement Learning | Later | -- | -- |
+| 10 | LLMs from Scratch | Do | 01, 02, 04, 06, 10, 11, 12 | ~9 |
+| 11 | LLM Engineering | Do | all | 19 |
+| 12 | Multimodal AI | Later | -- | -- |
+| 13 | Tools & Protocols | Do (chạy `/check-understanding 13` trước, chỉ học phần hổng) | điền sau khi quiz | ~25 |
+| 14 | Agent Engineering | Do | all | 55 |
+| 15 | Autonomous Systems | Later | -- | -- |
+| 16 | Multi-Agent & Swarms | Later | -- | -- |
+| 17 | Infrastructure & Production | Do | all | 34 |
+| 18 | Ethics, Safety & Alignment | Do | 12, 15, 16, 25, 29 | ~6 |
+| 19 | Capstone Projects | Later | -- | -- |
 
-Total (Review + Do): ~1154 hours across 19 phases.
+Total (Review + Do): ~205 hours, khoảng 6-7 tháng với ~8 h/week (plan cũ ~1154 hours).
 
 ## Progress log
 | Date | Lesson | Quiz | Note |
